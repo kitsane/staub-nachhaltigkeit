@@ -118,8 +118,8 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap (~> 4.0.0.beta)
-  middleman (~> 4.2)
-  middleman-autoprefixer (~> 2.7)
+  middleman
+  middleman-autoprefixer
   middleman-livereload
 
 BUNDLED WITH

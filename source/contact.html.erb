@@ -1,0 +1,41 @@
+---
+layout: welcome
+title: Kontakt Claudia Staub
+meta_description: Kontakt, Email und Telefonnummer von Claudia Staub MA/MSc Sustainable Development, Konzept&Umsetzung Nachhaltigkeit, Impressum.
+---
+<% content_for :contact do %>
+  <p>
+    Claudia Staub<br>
+    Konzept & Umsetzung<br>
+    Nachhaltigkeit
+  </p>
+  <p>
+    MA / MSc Sustainable<br>
+    Development
+  </p>
+  <p>
+    + 41 (0)79 614 50 17<br>
+    <%= mail_to 'info@staub-nachhaltigkeit.ch', 'info@staub-nachhaltigkeit.ch' %><br>
+    8003 Zürich
+  </p>
+  <p>
+    <%= link_to 'LinkedIn →', 'https://www.linkedin.com/in/claudia-staub-0154ab44', target: 'blank' %>
+  </p>
+<% end %>
+
+<% content_for :footer do %>
+  <div class="col-md-9"></div>
+  <div class="col-md-3">
+    <p>
+      <small>
+        Design Esther Rieser mit Joël Cavin<br>
+        Webseite Andi Staub<br>
+        Aufgeschaltet 2017 ©
+      </small>
+    </p>
+  </div>
+<% end %>
+
+<% link_to '/gain.html', class: 'brand' do %>
+  <%= image_tag 'logo.svg', alt: 'Claudia Staub, Konzept & Umsetzung Nachhaltigkeit' %>
+<% end %>

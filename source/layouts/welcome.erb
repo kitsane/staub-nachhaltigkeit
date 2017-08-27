@@ -4,14 +4,22 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="nav-container col-md-2">
+        <div class="nav-container col-md-3">
           <%= partial :navigation %>
+
+          <% if content_for?(:contact) %>
+            <div>
+              <%= yield_content :contact %>
+            </div>
+          <% end %>
         </div>
 
-        <div class="col-md-10">
+        <div class="col-md-6">
           <%= yield %>
         </div>
       </div>
+
+      <%= partial :footer %>
     </div>
   </body>
 </html>

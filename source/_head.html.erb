@@ -5,8 +5,9 @@
   <title>
     <%= current_page.data.title %>
     <% if current_page.data.title.present? %> | <% end %>
-    Konzept & Umsetzung Nachhaltigkeit Kontakt Claudia Staub
+    Konzept & Umsetzung Nachhaltigkeit
   </title>
+  <meta name="description" content="<%= current_page.data.meta_description %>">
 
   <%= stylesheet_link_tag "site" %>
   <%= javascript_include_tag "site" %>

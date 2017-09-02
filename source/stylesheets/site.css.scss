@@ -65,8 +65,13 @@ img {
 .brand {
   text-decoration: none;
   border-bottom-style: none;
+  display: block;
+  text-align: center;
+  line-height: 0;
+  margin-bottom: $space;
 
   img {
+    max-width: 500px;
     width: 100%;
     margin-top: 6rem;
 

@@ -112,6 +112,8 @@ img {
 }
 
 .navigation-menu {
+  margin-bottom: $space-large;
+
   @media (max-width: map-get($grid-breakpoints, md)) {
     display: none;
     position: absolute;

@@ -27,9 +27,11 @@ $space-large: $space * 2;
 
 @font-face {
   font-family: $font-name;
-  font-weight: regular;
+  src: url('../fonts/atto_medium.woff2') format('woff2'),
+       url('../fonts/atto_medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
-  src: url('../fonts/atto_medium.woff') format('woff');
 }
 
 * {

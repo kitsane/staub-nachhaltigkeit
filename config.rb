@@ -55,5 +55,7 @@ configure :build do
         { icon: "mstile-310x150.png", size: "310x150" }
       ]
     }
+
+    system 'cp CNAME build/'
   end
 end

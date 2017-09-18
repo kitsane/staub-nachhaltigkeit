@@ -22,7 +22,8 @@ end
 
 configure :build do
   activate :minify_css
-  activate :minify_javascript
+  # Deactivate due to error in the gem, wait until fixed
+  #activate :minify_javascript
   activate :relative_assets
   set :relative_links, true
 

@@ -14,7 +14,7 @@ page '/*.txt', layout: false
 
 helpers do
   def root_url
-    "http://#{ data.site.url}"
+    "https://#{ data.site.url}"
   end
 
   def nav_active(path)

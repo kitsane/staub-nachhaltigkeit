@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'builder'
+gem 'image_optim_pack'
 gem 'middleman'
 gem 'middleman-autoprefixer'
 gem 'middleman-favicon-maker'
+gem 'middleman-imageoptim', git: 'https://github.com/plasticine/middleman-imageoptim', branch: 'master'
+gem 'middleman-minify-html'
+gem 'therubyracer'
 gem 'bootstrap', '~> 4.0.0.beta'

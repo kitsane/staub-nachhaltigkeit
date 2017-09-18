@@ -26,10 +26,16 @@ end
 
 configure :build do
   activate :minify_css
-  # Deactivate due to error in the gem, wait until fixed
-  #activate :minify_javascript
-  activate :relative_assets
-  set :relative_links, true
+
+  require "uglifier"
+  activate :minify_javascript, compressor: -> { Uglifier.new(harmony: true) }
+
+  activate :minify_html
+
+  activate :imageoptim
+
+  activate :asset_hash
+  activate :gzip
 
   activate :favicon_maker do |f|
     f.template_dir = 'source/images'
@@ -60,5 +66,8 @@ configure :build do
         { icon: "mstile-310x150.png", size: "310x150" }
       ]
     }
+
+    activate :relative_assets
+    set :relative_links, true
   end
 end

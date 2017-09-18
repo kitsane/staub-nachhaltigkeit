@@ -13,6 +13,10 @@ page '/*.txt', layout: false
 # Helpers
 
 helpers do
+  def root_url
+    "http://#{ data.site.url}"
+  end
+
   def nav_active(path)
     'active' if current_page.path == path
   end

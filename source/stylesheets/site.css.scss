@@ -209,11 +209,12 @@ u {
 
   display: flex;
   align-items: flex-end;
-  padding-bottom: $space;
+  padding-bottom: $space * 2;
 }
 
 .portrait {
   max-width: 200px;
+  border-radius: 50%;
 }
 
 .back-to {
@@ -226,6 +227,10 @@ u {
 
 .offer {
   margin-bottom: $space;
+}
+
+.offer-picture {
+  padding-top: $space * 5;
 }
 
 .space {

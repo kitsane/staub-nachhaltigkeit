@@ -1,0 +1,18 @@
+---
+layout: welcome
+---
+<% content_for :description do %>
+  <%= t('.index.browser.description') %>
+<% end %>
+
+<% content_for :footer do %>
+  <div class="col-md-3">
+    <p>
+      <%= t('.index.title') %>
+    </p>
+  </div>
+<% end %>
+
+<% link_to '/gain.html', class: 'brand' do %>
+  <%= image_tag 'logo.svg', alt: t('.index.alt') %>
+<% end %>

@@ -1,0 +1,111 @@
+en:
+  locales:
+    de: Deutsch
+    en: English
+  nav:
+    challenge: Challenge
+    services: Services
+    expertise: Expertise
+    contact: Contact
+
+  page:
+    title: Sustainability – Concept & Implementation
+
+  index:
+    browser:
+      description: Claudia Staub, Konzept & Umsetzung Nachhaltigkeit in Unternehmen. Gemeinsame Erarbeitung eines massgeschneiderten Nachhaltigkeits-Plans. Beratung, Consulting, Strategie, Entwicklung
+    title: Sustainability –<br> Concept & Implementation
+    alt: 'Claudia Staub, Konzept & Umsetzung Nachhaltigkeit'
+
+  about:
+    browser:
+      title: Person Claudia Staub
+      description: Vision, dass Nachhaltigkeit zum selbstverständlichen Handlungsansatz in Unternehmen wird. Erfahrung und Expertise in Nachhaltigkeitskonzept Grosshandel, Detailhandel, WWF, FHNW,nachhaltige Lieferketten, Food und Non Food, Gremien wie BSCI, BEPI, Soja, Palmöl, Workshops, Berichterstattung
+    title: 'Sustainability: from concept to realization with our expertise.'
+    subtitle1: 'Experience and Expertise:'
+    list1:
+      - Development and implementation of customer specific sustainability concepts for trade, industry, gastronomy, and university
+      - Project management for sustainable supply chains and sustainability standards for food and non-food (raw materials such as cocoa, palm oil, soya, coffee, cotton and textiles)
+      - Development of target systems, processes, KPI-systems and procurement guidelines
+      - Strategy development on the basis of the Planetary Boundaries and Sustainable Development Goals (SDG)
+      - Performing workshops and internal training for suppliers and employees
+      - Establishing communication concepts including effective tools
+    subtitle2: Sectors
+    list2:
+      - Retail- and gross market
+      - University
+      - Industry
+      - NGO
+    person1:
+      link: Curriculum vitae Claudia Staub on LinkedIn →
+      href: https://www.linkedin.com/in/claudia-staub-0154ab44
+      alt: Portrait of Claudia Staub
+      caption: Claudia Staub, owner and expert sustainability 
+    person2:
+      link: Curriculum vitae Dr. Denise Bienz on LinkedIn →
+      href: https://www.linkedin.com/in/denise-bienz-septinus-31509986/
+      alt: Portrait of Denise Bienz
+      caption: Dr. Denise Bienz, senior expert sustainability 
+
+  contact:
+    browser:
+      title: Expertise Claudia Staub
+      description: Kontakt, Email und Telefonnummer von Claudia Staub MA/MSc Sustainable Development, Konzept&Umsetzung Nachhaltigkeit, Impressum.
+    company: Claudia Staub<br>Sustainability –<br>Concept & Implementation
+    title: MA / MSc Sustainable<br>Development
+    phone: + 41 (0)79 614 50 17
+    mail: info@staub-nachhaltigkeit.ch
+    address: 8003 Zürich<br>Lalotak GmbH
+    linkedin: 
+      title: LinkedIn →
+      href: https://www.linkedin.com/company/staub-nachhaltigkeit-ch/about/?viewAsMember=true
+    copyright: Lalotak GmbH 2020 ©
+    logo_alt: Claudia Staub, Sustainability – Concept & Implementation
+
+  gain:
+    browser:
+      title: Ihr Gewinn
+      description: Beschäftigt Sie das Thema Nachhaltigkeit und möchten Sie wissen, wie Sie Nachhaltigkeit praktisch und gewinnbringend in Ihrem Geschäftsalltag selbstständig umsetzen können? Erfolgreich dank Nachhaltigkeit mit fundierten Kenntnissen zu Ihren Chancen und Risiken im Kerngeschäft.
+    title: Sustainability –<br> Concept & Implementation
+    text:
+      - Do you care about sustainability in your company?
+      - Do you require customized expertise and practical guidance on how to incorporate efficiently sustainability in your everyday business?
+      - We provide you with pragmatic solutions to integrate sustainability profitably in your company.
+    subtitle: The Plan
+    text2:
+      - In collaboration with you, we identify the relevant sustainability opportunities and risks. We launch pilot projects and anchor practical implementation guidelines in existing strategies.
+      - Finally, you have a tailor-made and fully integrated sustainability plan at hand ready to be implemented in your organisation.  If desired, coaching services can be provided during the implementation phase. Sustainability as key for your corporate success.
+    subtitle2: Your Added Value
+    list:
+      - In-depth knowledge of the opportunities and risks of sustainability issues in your core business
+      - Practical guidance to implement sustainability projects based on best practices 
+      - Future-oriented business model with clear sustainability goals
+      - Potential cost reduction through higher efficiency and minimize risks to strengthen business reputation 
+      - Advantages in customer loyalty and public submissions
+
+  offer:
+    browser:
+      title: "Ihr Nachhaltigkeit-Plan"
+      description: "Ihr Nachhaltigkeit-Plan: Zusammen entwickelt, erprobt und integriert. Basis schaffen mit Analyse Daten, Aufbau starten mit Pilotprojekten und praktischen Handlungsanleitungen, Integration ermöglichen mit Kommunikation und Fortsetzung gewährleisten  mit Zielsystem."
+    title: "Your sustainability plan: together developed, verified and integrated"
+    subtitle1: A Set the Stage
+    list1: 
+      - Structured and risk-based analysis of your business processes and data
+      - Identification and prioritization of relevant sustainability issues and stakeholder
+      - Identify suitable options for action
+    subtitle2: B Initiate Projects
+    list2:
+      - Conception, planning and steering of pilot projects with ecological, social and environmental benefits
+      - Integrate sustainability into business strategies and processes
+      - Development of practical manuals and guidelines
+    subtitle3: C Enable Integration
+    list3:
+      - Training and motivation of employees
+      - Enabling autonomous implementation
+      - Development of communication concepts and tools
+    subtitle4: D Facilitate Continuity
+    list4:
+      - Development of target system 
+      - Continuous monitoring, controlling of Key Performance Indicators (KPI) and Reporting of progress 
+      - Alignment of actions taken
+    plan: Diagram sustainability plan

@@ -3,11 +3,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    <%= current_page.data.title %>
-    <% if current_page.data.title.present? %> | <% end %>
-    Konzept & Umsetzung Nachhaltigkeit
+    <% if content_for?(:title) %>
+      <%= yield_content :title %> | 
+    <% end %>
+    <%= t('.page.title') %>
   </title>
-  <meta name="description" content="<%= current_page.data.meta_description %>">
+  
+  <% if content_for?(:description) %>
+    <meta name="description" content="<%= yield_content :description %>">
+  <% end %>
 
   <%= stylesheet_link_tag "site" %>
   <script src="javascripts/site.js" defer></script>

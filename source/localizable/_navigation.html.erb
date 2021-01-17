@@ -1,0 +1,29 @@
+<nav>
+  <button class="navigation-button">
+    <u><%= t('.nav.menu') %></u>
+  </button>
+
+  <div class="navigation-menu">
+    <ul>
+      <li>
+        <%= link_to t('.nav.challenge'), '/gain.html', class: nav_active('gain.html') %>
+      </li>
+      <li>
+        <%= link_to t('.nav.services'), '/offer.html', class: nav_active('offer.html') %>
+      </li>
+      <li>
+        <%= link_to t('.nav.expertise'), '/about.html', class: nav_active('about.html') %>
+      </li>
+      <li>
+        <%= link_to t('.nav.contact'), '/contact.html', class: nav_active('contact.html') %>
+      </li>
+      <li>
+        <br>
+
+        <%= locale_switcher %>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+

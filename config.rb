@@ -1,4 +1,6 @@
 # Activate and configure extensions
+activate :i18n, langs: [:de, :en]
+activate :pry
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
@@ -19,6 +21,16 @@ helpers do
 
   def nav_active(path)
     'active' if current_page.path == path
+  end
+
+  def locale_switcher
+    path = current_page.page_id.split('/').last
+
+    current_locale = (locales - [I18n.locale]).first
+
+    content_tag :a, href: url_for(path, locale: current_locale).to_s do
+      t(".locales.#{current_locale}")
+    end
   end
 end
 

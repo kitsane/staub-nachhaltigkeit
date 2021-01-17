@@ -1,0 +1,51 @@
+<% content_for :title do %>
+  <%= t('.about.browser.title') %>
+<% end %>
+
+<% content_for :description do %>
+  <%= t('.about.browser.description') %>
+<% end %>
+
+<div class="row header">
+  <div class="col-md-8">
+    <h1>
+      <%= t('.about.title') %>
+    </h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-7">
+    <h2>
+      <u><%= t('.about.subtitle1') %></u>
+    </h2>
+    <ul>
+      <% t('.about.list1').each do |element| %>
+        <li><%= element %></li>
+      <% end %>
+    </ul>
+    <h2>
+      <u><%= t('.about.subtitle2') %></u>
+    </h2>
+    <ul>
+      <% t('.about.list2').each do |element| %>
+        <li><%= element %></li>
+      <% end %>
+    </ul>
+    <h2>
+      <%= link_to t('.about.person1.link'), t('.about.person1.href'), target: 'blank' %>
+    </h2>
+    <h2>
+      <%= link_to t('.about.person2.link'), t('.about.person2.href'), target: 'blank' %>
+    </h2>
+  </div>
+  <div class="col-md-5">
+    <div class="image">
+      <%= image_tag 'claudia-staub.jpg', alt: t('.about.person1.alt'), class: 'portrait' %>
+      <p><%= t('.about.person1.caption') %></p>
+    </div>
+    <div class="image">
+      <%= image_tag 'denise-bienz.jpeg', alt: t('.about.person2.alt'), class: 'portrait' %>
+      <p><%= t('.about.person2.caption') %></p>
+    </div>
+  </div>
+</div>

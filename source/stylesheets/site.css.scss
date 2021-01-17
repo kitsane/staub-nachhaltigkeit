@@ -175,11 +175,6 @@ li {
   & + li {
     margin-top:  $space / 4;
   }
-
-  &.no-bullet {
-    list-style-type: none;
-    margin-top: $space;
-  }
 }
 
 h1, h2 {

@@ -13,14 +13,14 @@ en:
 
   index:
     browser:
-      description: Claudia Staub, Konzept & Umsetzung Nachhaltigkeit in Unternehmen. Gemeinsame Erarbeitung eines massgeschneiderten Nachhaltigkeits-Plans. Beratung, Consulting, Strategie, Entwicklung
+      description: Claudia Staub, concept & iplmenteation sustainability into companies. Tailor-made sustainability plan in close collaboration. Consulting, Strategy, Development, Communication
     title: Sustainability –<br> Concept & Implementation
-    alt: 'Claudia Staub, Konzept & Umsetzung Nachhaltigkeit'
+    alt: 'Claudia Staub, Concept & Implementation Sustainability'
 
   about:
     browser:
-      title: Person Claudia Staub
-      description: Vision, dass Nachhaltigkeit zum selbstverständlichen Handlungsansatz in Unternehmen wird. Erfahrung und Expertise in Nachhaltigkeitskonzept Grosshandel, Detailhandel, WWF, FHNW,nachhaltige Lieferketten, Food und Non Food, Gremien wie BSCI, BEPI, Soja, Palmöl, Workshops, Berichterstattung
+      title: Expertise in sustainability
+      description: Sustainability from concept to realisation with our expertise. Experience and Expertise for Sustainbility Concepts Gross and Retail market, NGO, universites, sustainable supply chain, Food und Non Food, BSCI, BEPI, Soy, Palm oil, workshops, reporting
     title: 'Sustainability: from concept to realization with our expertise.'
     subtitle1: 'Experience and Expertise:'
     list1:
@@ -49,8 +49,8 @@ en:
 
   contact:
     browser:
-      title: Expertise Claudia Staub
-      description: Kontakt, Email und Telefonnummer von Claudia Staub MA/MSc Sustainable Development, Konzept&Umsetzung Nachhaltigkeit, Impressum.
+      title: Contact information Claudia Staub
+      description: contact, Email and phone number Claudia Staub MA/MSc Sustainable Development, Concept & Implementation, Impressum.
     company: Claudia Staub<br>Sustainability –<br>Concept & Implementation
     title: MA / MSc Sustainable<br>Development
     phone: + 41 (0)79 614 50 17
@@ -64,8 +64,8 @@ en:
 
   gain:
     browser:
-      title: Ihr Gewinn
-      description: Beschäftigt Sie das Thema Nachhaltigkeit und möchten Sie wissen, wie Sie Nachhaltigkeit praktisch und gewinnbringend in Ihrem Geschäftsalltag selbstständig umsetzen können? Erfolgreich dank Nachhaltigkeit mit fundierten Kenntnissen zu Ihren Chancen und Risiken im Kerngeschäft.
+      title: Your Added Value
+      description: Do you care about sustainability in your company? Do you require customized eperxtise and practical guidance on how to incorporate efficiently sustainability in your everyday business? Sustainability as key for your corporate success.
     title: Sustainability –<br> Concept & Implementation
     text:
       - Do you care about sustainability in your company?
@@ -85,8 +85,8 @@ en:
 
   offer:
     browser:
-      title: "Ihr Nachhaltigkeit-Plan"
-      description: "Ihr Nachhaltigkeit-Plan: Zusammen entwickelt, erprobt und integriert. Basis schaffen mit Analyse Daten, Aufbau starten mit Pilotprojekten und praktischen Handlungsanleitungen, Integration ermöglichen mit Kommunikation und Fortsetzung gewährleisten  mit Zielsystem."
+      title: "Your sustainability plan"
+      description: "Your sustainbility plan: together developed, verified and integrated". Set the stage by analysing and collecting data, Initiate projects and develop practical guidance, enable integration through communication and facilitate continuity with target system
     title: "Your sustainability plan: together developed, verified and integrated"
     subtitle1: A Set the Stage
     list1: 

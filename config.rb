@@ -1,6 +1,5 @@
 # Activate and configure extensions
 activate :i18n, langs: [:de, :en]
-activate :pry
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"

@@ -7,6 +7,7 @@ en:
     services: Services
     expertise: Expertise
     contact: Contact
+    menu: Menu
 
   page:
     title: Sustainability – Concept & Implementation
@@ -85,9 +86,9 @@ en:
 
   offer:
     browser:
-      title: "Your sustainability plan"
-      description: "Your sustainbility plan: together developed, verified and integrated". Set the stage by analysing and collecting data, Initiate projects and develop practical guidance, enable integration through communication and facilitate continuity with target system
-    title: "Your sustainability plan: together developed, verified and integrated"
+      title: '"Your sustainability plan"'
+      description: '"Your sustainbility plan: together developed, verified and integrated". Set the stage by analysing and collecting data, Initiate projects and develop practical guidance, enable integration through communication and facilitate continuity with target system'
+    title: '"Your sustainability plan: together developed, verified and integrated"'
     subtitle1: A Set the Stage
     list1: 
       - Structured and risk-based analysis of your business processes and data

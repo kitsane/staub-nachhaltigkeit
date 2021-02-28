@@ -9,7 +9,25 @@ layout: welcome
   <%= t('.contact.browser.description') %>
 <% end %>
 
-<% content_for :contact do %>
+<% content_for :footer do %>
+  <div class="col-md-9"></div>
+  <div class="col-md-3">
+    <p>
+      <small>
+        <%= t('.contact.copyright') %>
+      </small>
+    </p>
+  </div>
+<% end %>
+
+
+<div class="col-md-6">
+  <% link_to '/gain.html', class: 'brand' do %>
+    <%= image_tag 'logo.svg', alt: t('.index.alt') %>
+  <% end %>
+</div>
+
+<div class="col-md-3 mt-12">
   <p>
     <%= t('.contact.company') %>
   </p>
@@ -25,19 +43,5 @@ layout: welcome
   <p>
     <%= link_to t('.contact.linkedin.title'), t('.contact.linkedin.href'), target: 'blank' %>
   </p>
-<% end %>
-
-<% content_for :footer do %>
-  <div class="col-md-9"></div>
-  <div class="col-md-3">
-    <p>
-      <small>
-        <%= t('.contact.copyright') %>
-      </small>
-    </p>
-  </div>
-<% end %>
-
-<% link_to '/gain.html', class: 'brand' do %>
-  <%= image_tag 'logo.svg', alt: t('.contact.logo_alt') %>
-<% end %>
+  <%= image_tag 'claudia-und-denise.jpg' %>
+</div>

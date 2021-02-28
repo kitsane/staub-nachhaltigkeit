@@ -94,6 +94,14 @@ img {
   }
 }
 
+.mt-12 {
+  margin-top: 12rem; // set to align top column axis
+
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    margin-top: 0;
+  }
+}
+
 .navigation-button {
   display: none;
   border-style: none;

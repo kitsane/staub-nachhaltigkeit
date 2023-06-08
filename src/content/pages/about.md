@@ -16,7 +16,7 @@ de:
     - type: contact
       image: /assets/pages/denise-bienz.jpeg
       image_description: Dr. Denise Bienz, Senior Expertin Nachhaltigkeit
-  tab_title: Person Claudia Staub Change
+  tab_title: Person Claudia Staub
   title: "Nachhaltigkeit: Vom Konzept zur Umsetzung mit unserer Expertise. "
   content:
     - type: content

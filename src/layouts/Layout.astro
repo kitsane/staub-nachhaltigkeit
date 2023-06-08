@@ -1,0 +1,46 @@
+---
+import "../styles/main.scss";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+import Navigation from "../components/Navigation.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const { title, description } = Astro.props;
+
+const generateTitle = () => {
+  return [title, t('tab.title')].filter(Boolean).join(" | ");
+};
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content={description} />
+
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <title>{generateTitle()}</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="nav-container col-md-2">
+          <Navigation />
+        </div>
+
+        <div class="col-md-10">
+          <slot />
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="/main.js" async></script>
+</html>

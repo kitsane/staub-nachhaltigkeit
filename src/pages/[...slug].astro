@@ -1,0 +1,102 @@
+---
+import { Debug } from "astro/components";
+import { Markdown } from "@astropub/md";
+
+import { preprocessContent } from "../utils/preprocessContent";
+import Layout from "../layouts/Layout.astro";
+import Title from "../components/Title.astro";
+import Contact from "../components/Contact.astro";
+import Logo from "../components/Logo.astro";
+
+export async function getStaticPaths() {
+  return await preprocessContent();
+}
+
+const { content } = Astro.props;
+
+const primaryContent = content.content ?? [];
+const secondaryContent = content.secondary_content ?? [];
+
+const onlyPrimaryContent = () =>
+  primaryContent.length > 0 && secondaryContent.length === 0;
+const primaryAndSecondaryContent = () =>
+  primaryContent.length > 0 && secondaryContent.length > 0;
+const noContentOrOnlySecondaryContent = () =>
+  primaryContent.length === 0 && secondaryContent.length > 0;
+
+const primaryContentCssClass = () => {
+  if (onlyPrimaryContent()) return "col-md-12";
+  if (primaryAndSecondaryContent()) return "col-md-7";
+  return "col-md-8";
+};
+
+const secondaryContentCssClass = () => {
+  if (noContentOrOnlySecondaryContent()) return "col-md-4 mt-12";
+  if (primaryAndSecondaryContent()) return "col-md-5";
+  return null;
+};
+---
+
+<Layout title={content.tab_title} description={content.meta_description}>
+  {content.title.length > 0 && <Title>{content.title}</Title>}
+
+  <div class="row">
+    <div class={primaryContentCssClass()}>
+      <div class="row">
+        {
+          primaryContent.length > 0 ? (
+            <>
+              {primaryContent.map((entry) => {
+                if (entry.type === "list")
+                  return (
+                    <div class="offer col-md-6">
+                      <Markdown of={entry.list} />
+                    </div>
+                  );
+
+                if (entry.type === "image")
+                  return (
+                    <>
+                      <div class="offer-picture col-md-12">
+                        <h1>{entry.image_title}</h1>
+                      </div>
+                      <div class="col-md-12">
+                        <img src={entry.image} alt={entry.image_title} />
+                      </div>
+                    </>
+                  );
+
+                if (entry.type === "free_text" || entry.type === "content")
+                  return (
+                    <div class="content col-md-12">
+                      <Markdown of={entry.free_text} />
+                    </div>
+                  );
+              })}
+            </>
+          ) : (
+            <Logo />
+          )
+        }
+      </div>
+    </div>
+
+    <div class={secondaryContentCssClass()}>
+      {
+        secondaryContent.length > 0 &&
+          secondaryContent.map((entry) => {
+            if (entry.type === "contact")
+              return (
+                <Contact
+                  image={entry.image}
+                  imageDescription={entry.image_description}
+                />
+              );
+
+            if (entry.type === "free_text" || entry.type === "content")
+              return <Markdown of={entry.free_text} />;
+          })
+      }
+    </div>
+  </div>
+</Layout>

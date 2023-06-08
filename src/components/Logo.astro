@@ -1,0 +1,21 @@
+---
+import { getLangFromUrl } from "../i18n/utils";
+import { defaultLanguage } from "../i18n/ui";
+
+const currentLanguage = getLangFromUrl(Astro.url);
+
+// This should propably link to the first page in the content collection
+const urlToOtherLanguage = () => {
+  if (currentLanguage === defaultLanguage) {
+    return "/gain";
+  }
+
+  return "/" + [currentLanguage, "gain"].join("/");
+};
+---
+
+<div class="col-md-12">
+  <a href={urlToOtherLanguage()} class="logo-wrapper">
+    <img src="/logo.svg" class="logo" />
+  </a>
+</div>

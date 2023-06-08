@@ -1,15 +1,22 @@
 ---
 de:
-  slug: about
-  tab_title: Person Claudia Staub
   meta_description: " Vision, dass Nachhaltigkeit zum selbstverständlichen
     Handlungsansatz in Unternehmen wird. Erfahrung und Expertise in
     Nachhaltigkeitskonzept Grosshandel, Detailhandel, WWF, FHNW,nachhaltige
     Lieferketten, Food und Non Food, Gremien wie BSCI, BEPI, Soja, Palmöl,
     Workshops, Berichterstattung "
+  navigation_order: 300
+  slug: about
   show_in_navigation: true
   navigation_title: Expertise
-  navigation_order: 300
+  secondary_content:
+    - type: contact
+      image: /assets/pages/claudia-staub.jpg
+      image_description: Claudia Staub, Inhaberin und Expertin Nachhaltigkeit
+    - type: contact
+      image: /assets/pages/denise-bienz.jpeg
+      image_description: Dr. Denise Bienz, Senior Expertin Nachhaltigkeit
+  tab_title: Person Claudia Staub Change
   title: "Nachhaltigkeit: Vom Konzept zur Umsetzung mit unserer Expertise. "
   content:
     - type: content
@@ -46,13 +53,6 @@ de:
 
 
         ## [Lebenslauf Dr. Denise Bienz auf Linkedin →](https://www.linkedin.com/in/denise-bienz-septinus-31509986/)
-  secondary_content:
-    - type: contact
-      image: /assets/pages/claudia-staub.jpg
-      image_description: Claudia Staub, Inhaberin und Expertin Nachhaltigkeit
-    - type: contact
-      image: /assets/pages/denise-bienz.jpeg
-      image_description: Dr. Denise Bienz, Senior Expertin Nachhaltigkeit
 en:
   tab_title: Expertise in sustainability
   meta_description: Sustainability from concept to realisation with our expertise.

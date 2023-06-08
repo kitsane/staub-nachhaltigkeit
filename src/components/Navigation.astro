@@ -68,7 +68,7 @@ const urlToOtherLanguage = () => {
     <ul>
       {
         visiblePages.map((page) => (
-          <NavigationLink slug={page.slug} label={page.navigation_title} />
+          <NavigationLink slug={"/" + page.slug} label={page.navigation_title} />
         ))
       }
       <li>

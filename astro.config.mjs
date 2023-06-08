@@ -156,12 +156,15 @@ export default defineConfig({
   integrations: [
     NetlifyCMS({
       config: {
+        site_url: "https://staub-nachhaltigkeit.ch/",
+        display_url: "https://staub-nachhaltigkeit.ch/",
         backend: {
           name: "git-gateway",
           branch: "master",
+          repo: "kitsane/staub-nachhaltigkeit",
         },
-        media_folder: 'public/assets/pages',
-        public_folder: '/assets/pages',
+        media_folder: "public/assets/pages",
+        public_folder: "/assets/pages",
         i18n: {
           structure: "single_file",
           locales: ["de", "en"],

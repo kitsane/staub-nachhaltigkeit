@@ -36,7 +36,7 @@ de:
         [LinkedIn →](https://www.linkedin.com/company/staub-nachhaltigkeit-ch/about/?viewAsMember=true)
 
 
-        ![](https://staub-nachhaltigkeit.ch/images/claudia-und-denise-f8cc5507.jpg)
+        ![](/assets/pages/2020-claudiaunddenise-final-lores-03.jpg)
 
 
         Lalotak GmbH 2020 ©
@@ -75,7 +75,7 @@ en:
         [LinkedIn →](https://www.linkedin.com/company/staub-nachhaltigkeit-ch/about/?viewAsMember=true)
 
 
-        ![](https://staub-nachhaltigkeit.ch/images/claudia-und-denise-f8cc5507.jpg)
+        ![](/assets/pages/2020-claudiaunddenise-final-lores-03.jpg)
 
 
         Lalotak GmbH 2020 ©

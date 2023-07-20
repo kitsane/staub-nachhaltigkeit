@@ -103,5 +103,5 @@ en:
       image_description: Claudia Staub, owner and expert sustainability
     - type: contact
       image: /assets/pages/denise-bienz.jpeg
-      image_description: Denise Bienz, senior expert sustainability
+      image_description: Dr. Denise Bienz, senior expert sustainability
 ---

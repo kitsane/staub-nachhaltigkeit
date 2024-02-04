@@ -39,7 +39,7 @@ de:
         ![](/assets/pages/2020-claudiaunddenise-final-lores-03.jpg)
 
 
-        Lalotak GmbH 2023 ©
+        Lalotak GmbH 2024 ©
 en:
   tab_title: Contact Claudia Staub
   meta_description: contact, Email and phone number Claudia Staub MA/MSc

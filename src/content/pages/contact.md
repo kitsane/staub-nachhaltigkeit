@@ -78,5 +78,5 @@ en:
         ![](/assets/pages/2020-claudiaunddenise-final-lores-03.jpg)
 
 
-        Lalotak GmbH 2023 ©
+        Lalotak GmbH 2024 ©
 ---

@@ -1,14 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Logo from "../components/Logo.astro";
+import { Image } from "astro:assets";
+import logo from "../assets/logo.svg";
 ---
 
 <Layout>
-  <div class="row">
-    <div class="col-md-8">
-      <div class="row">
-        <Logo />
-      </div>
-    </div>
-  </div>
+  <Image src={logo} alt="logo" />
 </Layout>

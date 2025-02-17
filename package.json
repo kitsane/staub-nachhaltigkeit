@@ -10,10 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astropub/md": "^0.2.0",
-    "astro": "^2.6.1",
-    "astro-netlify-cms": "^0.5.3",
-    "bootstrap": "4.0.0",
-    "sass": "^1.62.1"
+    "astro": "^5.3.0"
   }
 }
